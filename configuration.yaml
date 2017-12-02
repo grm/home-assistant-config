@@ -98,6 +98,7 @@ sun:
 
 # Enable zwave support
 zwave:
+  usb_path: /dev/ttyACM0
 
 #MQTT position
 mqtt:
