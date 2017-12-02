@@ -14,5 +14,6 @@ sensor:
       - windDirection
       - humidity
       - cloudiness
-      # - fog
+      - fog
+      - pressure
       #- dewpointTemperature

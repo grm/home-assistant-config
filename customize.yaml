@@ -18,3 +18,9 @@ sensor.yr_humidity:
 
 sensor.yr_cloudiness:
   friendly_name: Couverture nuageuse
+
+sensor.yr_fog:
+  friendly_name: Brouillard
+
+sensor.yr_pressure:
+  friendly_name: Pression atmospherique
