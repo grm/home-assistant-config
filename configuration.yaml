@@ -96,6 +96,9 @@ map:
 # Track the sun
 sun:
 
+# Enable zwave support
+zwave:
+
 #MQTT position
 mqtt:
   broker: m23.cloudmqtt.com
@@ -111,6 +114,6 @@ zone: !include zones.yaml
 tts:
   - platform: google
 
-group: !include groups.yaml
+group: !include_dir_merge_list groups
 automation: !include automations.yaml
 script: !include scripts.yaml
