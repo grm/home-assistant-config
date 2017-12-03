@@ -1,12 +1,12 @@
 default_view:
   view: yes
   name: Maison
-  icon: mdi:home
   entities:
     - group.datetimeweather
 
 datetimeweather:
-  name: General
+  name: Général
+  icon: mdi:home
   entities:
     - sensor.time
     - sensor.date

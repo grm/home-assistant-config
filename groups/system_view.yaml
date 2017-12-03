@@ -1,12 +1,12 @@
 system_view:
   view: yes
   name: Système
-  icon: mdi:server-network
   entities:
     - group.speedtest
 
 speedtest:
   name: Speed test
+  icon: mdi:server-network
   entities:
     - sensor.speedtest_ping
     - sensor.speedtest_download
