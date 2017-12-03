@@ -5,4 +5,4 @@ gaming_view:
     - group.Steam
 
 Steam:
-  - sensor.steam_76561197991322160
+  - sensor.steam_online_76561197991322160
