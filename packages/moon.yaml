@@ -1,0 +1,3 @@
+sensor:
+  # Moon tracking
+  - platform: moon

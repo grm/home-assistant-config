@@ -14,12 +14,12 @@ homeassistant:
   customize: !include customize.yaml
 
   # Packages
-  packages:
+  packages: !include_dir_named packages
     #
     # homeassistant: !include packages/homeassistant.yaml
     #
     # datetime: !include packages/datetime.yaml
-    weather: !include packages/weather.yaml
+    # weather: !include packages/weather.yaml
     # tracking: !include packages/tracking.yaml
     #
     # internet: !include packages/internet.yaml

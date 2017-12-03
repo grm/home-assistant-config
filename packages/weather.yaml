@@ -3,7 +3,6 @@
 # Provides Sun, Moon, Weather, Date & Time
 
 sensor:
-
   # Weather Prediction
   - platform: yr
     monitored_conditions:
