@@ -24,3 +24,15 @@ sensor.yr_fog:
 
 sensor.yr_pressure:
   friendly_name: Pression atmospherique
+
+sensor.yr_sun:
+  friendly_name: Position du soleil
+
+sensor.moon:
+  friendly_name: Phase lunaire
+
+sensor.time_date_time:
+  friendly_name: Heure
+
+sensor.time_date_date:
+  friendly_name: Date
