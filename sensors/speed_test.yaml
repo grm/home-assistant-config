@@ -2,7 +2,6 @@
   hour:
     - 8
     - 12
-    - 14
     - 16
     - 20
   monitored_conditions:
