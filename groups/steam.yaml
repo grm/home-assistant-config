@@ -1,0 +1,5 @@
+steam:
+  name: Steam
+  icon: mdi:steam
+  entities:
+    - sensor.steam_76561197991322160

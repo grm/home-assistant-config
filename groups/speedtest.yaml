@@ -1,0 +1,7 @@
+speedtest:
+  name: Speed test
+  icon: mdi:server-network
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
