@@ -1,5 +1,5 @@
 system_view:
-  view: True
+  view: yes
   name: Système
   icon: mdi:desktop-classic
   entities:

@@ -1,5 +1,5 @@
 default_view:
-  view: True
+  view: yes
   name: Maison
   icon: mdi:home
   entities:
