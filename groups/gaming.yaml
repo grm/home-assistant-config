@@ -8,4 +8,4 @@ Steam:
   name: Steam
   icon: mdi:steam
   entities:
-    - sensor.steam_online_76561197991322160
+    - sensor.steam_76561197991322160
