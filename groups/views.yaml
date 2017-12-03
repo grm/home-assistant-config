@@ -1,5 +1,11 @@
 system_view:
   view: True
+  name: Maison
+  entities:
+    - group.datetimeweather
+
+system_view:
+  view: True
   name: Système
   entities:
     - group.speedtest
