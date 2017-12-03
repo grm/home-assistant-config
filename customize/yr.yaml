@@ -1,5 +1,5 @@
 sensor.yr_symbol:
-  friendly_name:
+  friendly_name: Météo
 
 sensor.yr_temperature:
   friendly_name: Température
