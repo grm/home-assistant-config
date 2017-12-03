@@ -100,6 +100,8 @@ sun:
 zwave:
   usb_path: /dev/ttyUSB0
 
+sensor: !include_dir_merge_list sensors
+
 #MQTT position
 mqtt:
   broker: m23.cloudmqtt.com
