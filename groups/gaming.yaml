@@ -1,0 +1,8 @@
+gaming_view:
+  view: yes
+  name: Gaming
+  entities:
+    - group.Steam
+
+Steam:
+  - sensor.steam_76561197991322160
