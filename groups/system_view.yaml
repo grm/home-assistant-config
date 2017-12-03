@@ -1,5 +1,11 @@
+system_view:
+  view: True
+  name: Système
+  entities:
+    - group.speedtest
+
 speedtest:
-  name: Speedtest
+  name: Speed test
   entities:
     - sensor.speedtest_ping
     - sensor.speedtest_download

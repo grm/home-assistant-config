@@ -1,3 +1,9 @@
+default_view:
+  view: True
+  name: Maison
+  entities:
+    - group.datetimeweather
+
 datetimeweather:
   name: Gereral
   entities:
