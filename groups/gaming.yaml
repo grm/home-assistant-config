@@ -2,9 +2,9 @@ gaming_view:
   view: yes
   name: Gaming
   entities:
-    - group.Steam
+    - group.steam
 
-Steam:
+steam:
   name: Steam
   icon: mdi:steam
   entities:
