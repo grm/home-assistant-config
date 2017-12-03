@@ -1,7 +1,7 @@
 system_view:
   view: yes
   name: Système
-  icon: mdi:desktop-classic
+  icon: mdi:server-network
   entities:
     - group.speedtest
 
