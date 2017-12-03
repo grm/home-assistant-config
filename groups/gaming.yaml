@@ -5,4 +5,7 @@ gaming_view:
     - group.Steam
 
 Steam:
-  - sensor.steam_online_76561197991322160
+  name: Steam
+  icon: mdi:steam
+  entities:
+    - sensor.steam_online_76561197991322160
