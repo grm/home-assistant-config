@@ -117,6 +117,6 @@ zone: !include zones.yaml
 tts:
   - platform: google
 
-group: !include_dir_merge_list groups
+group: !include_dir_merge_named groups
 automation: !include automations.yaml
 script: !include scripts.yaml
