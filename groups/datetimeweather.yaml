@@ -2,7 +2,7 @@ datetimeweather:
   name: Général
   icon: mdi:home
   entities:
-    - sensor.time_date
+    - sensor.time_date_date_time
     - sensor.yr_symbol
     - sensor.yr_temperature
     - sensor.yr_cloudiness
