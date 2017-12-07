@@ -2,3 +2,4 @@
   api_key: !secret steam_api_key
   accounts:
     - 76561197991322160
+    - 76561197980418241
