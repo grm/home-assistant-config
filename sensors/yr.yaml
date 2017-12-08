@@ -1,12 +1,18 @@
-- platform: yr
-  monitored_conditions:
-    - symbol
-    - temperature
-    - precipitation
-    - windSpeed
-    - windDirection
-    - humidity
-    - cloudiness
-    - fog
-    - pressure
-    #- dewpointTemperature
+# Weather HASS Module
+#
+# Provides Sun, Moon, Weather, Date & Time
+
+sensor:
+  # Weather Prediction
+  - platform: yr
+    monitored_conditions:
+      - symbol
+      - temperature
+      - precipitation
+      - windSpeed
+      - windDirection
+      - humidity
+      - cloudiness
+      - fog
+      - pressure
+      #- dewpointTemperature
