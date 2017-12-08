@@ -2,9 +2,9 @@ systemmonitor:
   name: Système
   icon: mdi:speedometer
   entities:
-    - systemmonitor_processor_use
-    - systemmonitor_memory_use_percent
-    - systemmonitor_disk_use_percent
+    - sensor.cpu_used
+    - sensor.ram_used
+    - sensor.disk_used
     - systemmonitor_load_1m
     - systemmonitor_load_5m
     - systemmonitor_load_15m
