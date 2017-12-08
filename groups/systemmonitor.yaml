@@ -1,0 +1,12 @@
+systemmonitor:
+  name: Système
+  icon: mdi:speedometer
+  entities:
+    - systemmonitor_cpu_used
+    - systemmonitor_ram_used
+    - systemmonitor_disk_used
+    - systemmonitor_load_1m
+    - systemmonitor_load_5m
+    - systemmonitor_load_15m
+    - systemmonitor_network_in
+    - systemmonitor_network_out

@@ -3,3 +3,4 @@ system_view:
   name: Système
   entities:
     - group.speedtest
+    - group.systemmonitor
