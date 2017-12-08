@@ -6,7 +6,7 @@ systemmonitor:
     - sensor.ram_used
     - sensor.disk_used_
     - sensor.average_load_1m
-    - sensor.avergage_load_5m
+    - sensor.average_load_5m
     - sensor.average_load_15m
     - sensor.received_eth0
     - sensor.sent_eth0
