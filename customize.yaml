@@ -31,5 +31,5 @@ sun.sun:
 sensor.moon:
   friendly_name: Phase lunaire
 
-sensor.date_time:
-  friendly_name: Date & Heure
+# sensor.date_time:
+#   friendly_name: Date & Heure
