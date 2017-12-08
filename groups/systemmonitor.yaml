@@ -4,9 +4,9 @@ systemmonitor:
   entities:
     - sensor.cpu_used
     - sensor.ram_used
-    - sensor.disk_used
-    - sensor.load_1m
-    - sensor.load_5m
-    - sensor.load_15m
-    - sensor.network_in
-    - sensor.network_out
+    - sensor.disk_used_
+    - sensor.average_load_1m
+    - sensor.avergage_load_5m
+    - sensor.average_load_15m
+    - sensor.received_eth0
+    - sensor.sent_eth0
