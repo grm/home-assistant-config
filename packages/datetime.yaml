@@ -2,8 +2,8 @@ sensor:
   # Date and time
   - platform: time_date
     display_options:
-      - 'date'
-      - 'time'
+      - 'date_time'
+      # - 'time'
       #- 'date_time'
       # - 'date'
       #- 'date_time'
