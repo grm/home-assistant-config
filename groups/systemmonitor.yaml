@@ -5,8 +5,8 @@ systemmonitor:
     - sensor.cpu_used
     - sensor.ram_used
     - sensor.disk_used
-    - systemmonitor_load_1m
-    - systemmonitor_load_5m
-    - systemmonitor_load_15m
-    - systemmonitor_network_in
-    - systemmonitor_network_out
+    - sensor.load_1m
+    - sensor.load_5m
+    - sensor.load_15m
+    - sensor.network_in
+    - sensor.network_out
