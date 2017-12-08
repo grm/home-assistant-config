@@ -14,7 +14,7 @@ homeassistant:
   customize: !include customize.yaml
 
   # Packages
-  packages: !include_dir_named packages
+  #packages: !include_dir_named packages
     #
     # homeassistant: !include packages/homeassistant.yaml
     #
