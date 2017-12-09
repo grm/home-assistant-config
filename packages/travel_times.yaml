@@ -1,23 +1,27 @@
 sensor:
   - platform: google_travel_time
+    name: Grm Home -> Work
     api_key: !secret google_distance_matrix_api_key
     origin: zone.Home
     destination: !secret work_grm_address
 
 sensor:
   - platform: google_travel_time
+    name: Grm Work -> Home
     api_key: !secret google_distance_matrix_api_key
     origin: !secret work_grm_address
     destination: zone.Home
 
 sensor:
   - platform: google_travel_time
+    name: Lolo Home -> Work
     api_key: !secret google_distance_matrix_api_key
     origin: zone.Home
     destination: !secret work_lolo_address
 
 sensor:
   - platform: google_travel_time
+    name: Lolo Work -> Home
     api_key: !secret google_distance_matrix_api_key
     origin: !secret work_lolo_address
     destination: zone.Home
