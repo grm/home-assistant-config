@@ -1,6 +1,0 @@
-system_view:
-  view: yes
-  name: Système
-  entities:
-    - group.systemmonitor
-    - group.speedtest

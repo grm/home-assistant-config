@@ -1,0 +1,18 @@
+default_view_temp:
+  view: yes
+  name: Maison
+  entities:
+    - group.datetimeweather
+
+gaming_view:
+  view: yes
+  name: Gaming
+  entities:
+    - group.steam
+
+system_view:
+  view: yes
+  name: Système
+  entities:
+    - group.systemmonitor
+    - group.speedtest

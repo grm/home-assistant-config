@@ -1,5 +1,0 @@
-default_view_temp:
-  view: yes
-  name: Maison
-  entities:
-    - group.datetimeweather

@@ -1,5 +1,0 @@
-gaming_view:
-  view: yes
-  name: Gaming
-  entities:
-    - group.steam
