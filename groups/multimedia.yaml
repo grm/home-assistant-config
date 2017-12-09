@@ -1,0 +1,5 @@
+multimedia_salon:
+  name: Salon
+  icon: mdi:sofa
+  entities:
+    - media_player.tv_salon

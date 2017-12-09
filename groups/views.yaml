@@ -11,6 +11,12 @@ lights_view:
     - group.light_salon
     - group.light_chambre_giulia
 
+multimedia_view:
+  view: yes
+  name: Multimedia
+  entities:
+    - group.multimedia_salon
+
 gaming_view:
   view: yes
   name: Gaming
