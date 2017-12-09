@@ -120,3 +120,4 @@ tts:
 group: !include_dir_merge_named groups
 automation: !include automations.yaml
 script: !include scripts.yaml
+media_player: !include_dir_merge_list media_players
