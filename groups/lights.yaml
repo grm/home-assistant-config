@@ -4,6 +4,14 @@ light_salon:
   entities:
     - light.lampe_canape
 
+light_veranda:
+  name: Veranda
+  icon: mdi:martini
+  entities:
+
+light_toilet_rdc:
+  name: Toilettes RDC
+
 light_chambre_giulia:
   name: Chambre Giulia
   icon: mdi:baby-buggy
