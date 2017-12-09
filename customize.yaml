@@ -31,5 +31,29 @@ sun.sun:
 sensor.moon:
   friendly_name: Phase lunaire
 
-# sensor.date_time:
-#   friendly_name: Date & Heure
+sensor.date__time:
+  friendly_name: Date & Heure
+
+sensor.cpu_used:
+  friendly_name: CPU
+
+sensor.ram_used:
+  friendly_name: RAM
+
+sensor.disk_used_:
+  friendly_name: Disque /
+
+sensor.average_load_1m:
+  friendly_name: Load (1m)
+
+sensor.average_load_5m:
+  friendly_name: Load (5m)
+
+sensor.average_load_15m:
+  friendly_name: Load (15m)
+
+sensor.received_eth0:
+  friendly_name: eth0 in
+
+sensor.sent_eth0:
+  friendly_name: eth0 out

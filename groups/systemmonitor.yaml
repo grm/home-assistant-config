@@ -1,5 +1,5 @@
 systemmonitor:
-  name: Système
+  name: Système (Raspberry)
   icon: mdi:speedometer
   entities:
     - sensor.cpu_used
