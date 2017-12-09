@@ -4,6 +4,13 @@ default_view_temp:
   entities:
     - group.datetimeweather
 
+lights_view:
+  view: yes
+  name: Lumières
+  entities:
+    - group.light_salon
+    - group.light_chambre_giulia
+
 gaming_view:
   view: yes
   name: Gaming

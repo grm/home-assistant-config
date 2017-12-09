@@ -1,0 +1,11 @@
+light_salon:
+  name: Salon
+  icon: mdi:sofa
+  entities:
+    - light.lampe_canape
+
+light_chambre_giulia:
+  name: Chambre Giulia
+  icon: mdi:baby-buggy
+  entities:
+    - light.chambre_giulia
