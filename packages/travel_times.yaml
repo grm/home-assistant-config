@@ -12,6 +12,12 @@ sensor:
     destination: zone.Home
 
   - platform: google_travel_time
+    name: Grm To Home
+    api_key: !secret google_distance_matrix_api_key
+    origin: device_tracker.grm_phone_grm_phone
+    destination: zone.Home
+
+  - platform: google_travel_time
     name: Lolo Home -> Work
     api_key: !secret google_distance_matrix_api_key
     origin: zone.Home
@@ -21,4 +27,10 @@ sensor:
     name: Lolo Work -> Home
     api_key: !secret google_distance_matrix_api_key
     origin: !secret work_lolo_address
+    destination: zone.Home
+
+  - platform: google_travel_time
+    name: Lolo To Home
+    api_key: !secret google_distance_matrix_api_key
+    origin: device_tracker.lolo_phone_lolo_phone
     destination: zone.Home
