@@ -60,3 +60,12 @@ sensor.sent_eth0:
 
 sensor.current_version:
   friendly_name: HASS version
+
+sensor.us_air_pollution_level:
+  friendly_name: Niveau de pollution de l'air
+
+sensor.us_air_quality_index:
+  friendly_name: Index de qualité de l'air
+
+sensor.us_main_pollutant:
+  friendly_name: Polluant principal
