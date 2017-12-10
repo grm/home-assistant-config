@@ -3,7 +3,10 @@ sensor:
     api_key: !secret airvisual_api_key
     monitored_conditions:
       - us
-    latitude: !secret home_latitude
-    longitude: !secret home_longitude
+    # latitude: !secret home_latitude
+    # longitude: !secret home_longitude
     # radius: 500
     show_on_map: true
+    city: Paris
+    state: Ile-de-France
+    country: France
