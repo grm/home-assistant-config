@@ -2,6 +2,7 @@ systemmonitor:
   name: Système (Raspberry)
   icon: mdi:speedometer
   entities:
+    - sensor.current_version
     - sensor.cpu_used
     - sensor.ram_used
     - sensor.disk_used_

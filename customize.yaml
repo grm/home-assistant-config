@@ -57,3 +57,6 @@ sensor.received_eth0:
 
 sensor.sent_eth0:
   friendly_name: eth0 out
+
+sensor.current_version:
+  friendly_name: HASS version
