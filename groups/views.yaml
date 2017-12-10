@@ -1,8 +1,9 @@
 default_view_temp:
   view: yes
-  name: Maison
+  name: Environement
   entities:
     - group.datetimeweather
+    - group.pollution
 
 lights_view:
   view: yes
