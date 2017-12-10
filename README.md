@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/grm/home-assistant-config.svg?branch=master)](https://travis-ci.org/grm/home-assistant-config)
 
-## Supported Sensors
+## Currently Supported Sensors
 
  - Philips Hue
  - Owntracks with MQTT
@@ -15,3 +15,7 @@
  - Zwave controller
  - Google travel time
  - Air visual (for air quality)
+
+ ## Currently Supported notifications
+
+ ## Currently Developped triggers
