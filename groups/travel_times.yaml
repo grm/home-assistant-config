@@ -1,0 +1,10 @@
+traveltimes:
+  name: Temps de trajet
+  icon: mdi:briefcase
+  entities:
+    - sensor.grm_home__work
+    - sensor.grm_work__home
+    - sensor.grm_to_home
+    - sensor.lolo_home__work
+    - sensor.lolo_work__home
+    - sensor.lolo_to_home

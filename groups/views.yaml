@@ -22,6 +22,7 @@ environment_view:
   name: Environnement
   entities:
     - group.datetimeweather
+    - group.traveltimes
     - group.pollution
 
 system_view:
