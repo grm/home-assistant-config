@@ -85,11 +85,11 @@ discovery:
 conversation:
 
 # Enables support for tracking state changes over time
-history: !include history.yaml
+# history: !include history.yaml
 
-recorder:
-  purge_interval: 2
-  purge_keep_days: 5
+# recorder:
+#   purge_interval: 2
+#   purge_keep_days: 5
 
 # View all events in a logbook
 logbook:
