@@ -1,0 +1,4 @@
+sensor:
+  - platform: cryptocompare
+    currency: XMR
+    display_currency: EUR
