@@ -3,6 +3,8 @@ lights_view:
   name: Lumières
   entities:
     - group.light_salon
+    - group.light_cuisine
+    - group.light_toilette_bas
     - group.light_chambre_giulia
 
 multimedia_view:

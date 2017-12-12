@@ -2,7 +2,13 @@ light_salon:
   name: Salon
   icon: mdi:sofa
   entities:
-    - light.lampe_canape
+    - light.salon_plafond_canape
+
+light_cuisine:
+  name: Cuisine
+  icon: mdi:fridge
+  entities:
+    - light.cuisine_plafond
 
 # light_veranda:
 #   name: Veranda
@@ -17,3 +23,9 @@ light_chambre_giulia:
   icon: mdi:baby-buggy
   entities:
     - light.chambre_giulia
+
+light_toilette_bas:
+  name: Toilette bas
+  icon: mdi:baby-buggy
+  entities:
+    - light.plafond_toilette
