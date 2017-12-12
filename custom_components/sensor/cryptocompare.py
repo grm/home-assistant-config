@@ -108,10 +108,10 @@ class CryptoCompareSensor(Entity):
             # ATTR_PERCENT_CHANGE_7D: self._ticker.get('percent_change_7d'),
             ATTR_SYMBOL: self._ticker['AggregatedData']['FROMSYMBOL'],
             ATTR_TOTAL_SUPPLY: self._ticker['TotalCoinsMined'],
-            ATTR_BLOCK_NUMBER = self._ticker['BlockNumber'],
-            ATTR_BLOCK_REWARD = self._ticker['BlockReward'],
-            ATTR_ALGORITHM = self._ticker['Algorithm'],
-            ATTR_NET_HASH_PER_SECOND = self._ticker['NetHashesPerSecond']
+            ATTR_BLOCK_NUMBER: self._ticker['BlockNumber'],
+            ATTR_BLOCK_REWARD: self._ticker['BlockReward'],
+            ATTR_ALGORITHM: self._ticker['Algorithm'],
+            ATTR_NET_HASH_PER_SECOND: self._ticker['NetHashesPerSecond']
         }
 
     def update(self):
