@@ -101,7 +101,7 @@ class CryptoCompareSensor(Entity):
             ATTR_24H_VOLUME: self._ticker['AggregatedData']['VOLUME24HOUR'],
             ATTR_ATTRIBUTION: CONF_ATTRIBUTION,
             # ATTR_AVAILABLE_SUPPLY: self._ticker.get('available_supply'),
-            ATTR_MARKET_CAP: self._ticker['AggregatedData']['PRICE'] * self._ticker['TotalCoinsMined'],
+            ATTR_MARKET_CAP: float(self._ticker['AggregatedData']['PRICE']) * float(self._ticker['TotalCoinsMined']),
             # ATTR_PERCENT_CHANGE_24H: self._ticker.get('percent_change_24h'),
             # ATTR_PERCENT_CHANGE_7D: self._ticker.get('percent_change_7d'),
             ATTR_SYMBOL: self._ticker['AggregatedData']['FROMSYMBOL'],
