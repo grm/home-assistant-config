@@ -85,7 +85,7 @@ discovery:
 conversation:
 
 # Enables support for tracking state changes over time
-# history: !include history.yaml
+history: !include history.yaml
 
 # recorder:
 #   purge_interval: 2
