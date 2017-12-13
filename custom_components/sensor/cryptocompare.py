@@ -132,4 +132,4 @@ class CryptoCompareData(object):
         from cryptocompy import coin
         self.ticker = coin.get_coin_snapshot(
             self.currency,
-            convert=self.display_currency)
+            self.display_currency)
