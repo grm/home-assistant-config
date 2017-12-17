@@ -3,6 +3,7 @@ light_salon:
   icon: mdi:sofa
   entities:
     - light.salon_plafond_canape
+    - light.hue_color_lamp_1
 
 light_cuisine:
   name: Cuisine
