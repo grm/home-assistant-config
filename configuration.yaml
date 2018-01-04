@@ -112,7 +112,7 @@ sensor: !include_dir_merge_list sensors
 
 light:
   - platform: hue
-    host: 192.168.43.207
+    host: 192.168.1.104
     allow_unreachable: true
 
 #MQTT position
