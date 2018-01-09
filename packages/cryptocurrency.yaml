@@ -2,3 +2,6 @@ sensor:
   - platform: cryptocompare
     currency: XMR
     display_currency: EUR
+  - platform: cryptocompare
+    currency: XMR
+    display_currency: USD
