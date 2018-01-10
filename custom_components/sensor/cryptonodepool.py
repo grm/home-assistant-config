@@ -35,8 +35,8 @@ ICON = 'mdi:currency-usd'
 SCAN_INTERVAL = timedelta(minutes=1)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
-    vol.Required(CONF_POOL_NAME: cv.string,
-    vol.Required(CONF_POOL_ADDRESS: cv.string,
+    vol.Required(CONF_POOL_NAME): cv.string,
+    vol.Required(CONF_POOL_ADDRESS): cv.string,
     vol.Required(CONF_WALLET_ADDRESS): cv.string,
 })
 
