@@ -8,7 +8,7 @@ import voluptuous as vol
 
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.sensor import PLATFORM_SCHEMA
-from homeassistant.const import ATTR_ATTRIBUTION, CONF_POOL_ADDRESS, CONF_WALLET_ADDRESS, CONF_POOL_NAME
+from homeassistant.const import ATTR_ATTRIBUTION, CONF_WALLET_ADDRESS, CONF_POOL_NAME, CONF_POOL_ADDRESS
 from homeassistant.helpers.entity import Entity
 
 REQUIREMENTS = ['requests==2.18.4', 'datetime']
