@@ -54,7 +54,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
     #     display_currency = DEFAULT_DISPLAY_CURRENCY
 
     add_devices([CryptoNodePoolSensor(
-        CryptoNodePoolData(address, config.get(CONF_POOL_NAME))], True)
+        CryptoNodePoolData(address, config.get(CONF_POOL_NAME)))], True)
 
 
 class CryptoNodePoolSensor(Entity):
@@ -105,7 +105,7 @@ class CryptoNodePoolSensor(Entity):
             PAYMENT_THRESHOLD: self._ticker['stats']['thold'] / 1000000000000,
             INVALID_SHARES: self._ticker['stats']['invalid'],
             PAID: self._ticker['stats']['paid'],
-            HASHRATE: self._ticker['stats']['hashrate'],
+            HASHRATE: long(self._ticker['stats']['hashrate']) / 1000,
             LAST_PAYMENT_DATE: last_payment_date,
            LAST_PAYMENT_VALUE: last_payment_value
         }
