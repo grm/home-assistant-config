@@ -96,7 +96,7 @@ class CryptoNodePoolSensor(Entity):
         import datetime
         last_share = datetime.datetime.fromtimestamp(int(self._ticker['stats']["lastShare"]))\
             .strftime('%Y-%m-%d %H:%M:%S')
-        last_payment_date = datetime.datetime.fromtimestamp(int(self._ticker['stats']['payments'][1]))\
+        last_payment_date = datetime.datetime.fromtimestamp(int(self._ticker['payments'][1]))\
             .strftime('%Y-%m-%d %H:%M:%S')
         last_payment_value = long(self._ticker['payments'][0].split(':')[2]) / 1000000000000
         return {
