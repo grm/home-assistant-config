@@ -132,9 +132,9 @@ class CryptoNodePoolData(object):
         """Get the latest data from the pool"""
         import requests
         import json
-        response = requests.get(url)
+        response = requests.get(self.address)
         if response.ok:
             # Loading the response data into a dict variable
             # json.loads takes in only binary or string variables so using content to fetch binary content
             # Loads (Load String) takes a Json file and converts into python data structure (dict or list, depending on JSON)
-            self.ticker = json.loads(myResponse.content)
+            self.ticker = json.loads(response.content)
