@@ -8,7 +8,7 @@ import voluptuous as vol
 
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.sensor import PLATFORM_SCHEMA
-from homeassistant.const import ATTR_ATTRIBUTION, CONF_WALLET_ADDRESS, CONF_POOL_NAME, CONF_POOL_ADDRESS
+from homeassistant.const import ATTR_ATTRIBUTION
 from homeassistant.helpers.entity import Entity
 
 REQUIREMENTS = ['requests==2.18.4', 'datetime']
@@ -27,6 +27,10 @@ LAST_PAYMENT_DATE = 'last_payment_date'
 LAST_PAYMENT_VALUE = 'last_payment_value'
 
 CONF_ATTRIBUTION = "Data provided by Node Cryptonote Pool"
+CONF_POOL_ADDRESS = 'pool_address'
+CONF_WALLET_ADDRESS = 'wallet_address'
+CONF_POOL_NAME = 'pool_name'
+
 
 
 ICON = 'mdi:currency-usd'
