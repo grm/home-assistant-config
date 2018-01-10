@@ -122,7 +122,7 @@ class CryptoNodePoolSensor(Entity):
 class CryptoNodePoolData(object):
     """Get the latest data and update the states."""
 
-    def __init__(self, address):
+    def __init__(self, address, pool_name):
         """Initialize the data object."""
         self.address = address
         self.pool_name = pool_name
