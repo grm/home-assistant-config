@@ -105,7 +105,7 @@ class CryptoNodePoolSensor(Entity):
             LAST_SHARE_TIME: last_share,
             BALANCE: self._ticker['stats']['balance'],
             EXPIRED: self._ticker['stats']['expired'],
-            PAYMENT_THRESHOLD: self._ticker['stats']['thold'] / 1000000000000,
+            PAYMENT_THRESHOLD: int(self._ticker['stats']['thold']) / 1000000000000,
             INVALID_SHARES: self._ticker['stats']['invalid'],
             PAID: self._ticker['stats']['paid'],
             HASHRATE: int(self._ticker['stats']['hashrate']) / 1000,
