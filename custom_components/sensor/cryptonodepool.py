@@ -98,7 +98,7 @@ class CryptoNodePoolSensor(Entity):
             .strftime('%Y-%m-%d %H:%M:%S')
         last_payment_date = datetime.datetime.fromtimestamp(int(self._ticker['payments'][1]))\
             .strftime('%Y-%m-%d %H:%M:%S')
-        last_payment_value = int(self._ticker['payments'][0].split(':')[2]) / 1000000000000
+        last_payment_value = int(self._ticker['payments'][0].split(':')[1]) / 1000000000000
         return {
             STAT_HASHES: self._ticker['stats']['hashes'],
             ATTR_ATTRIBUTION: CONF_ATTRIBUTION,
@@ -110,7 +110,7 @@ class CryptoNodePoolSensor(Entity):
             PAID: int(self._ticker['stats']['paid']) / 1000000000000,
             HASHRATE: int(self._ticker['stats']['hashrate']) / 1000,
             LAST_PAYMENT_DATE: last_payment_date,
-           LAST_PAYMENT_VALUE: last_payment_value
+            LAST_PAYMENT_VALUE: last_payment_value
         }
 
     def update(self):
