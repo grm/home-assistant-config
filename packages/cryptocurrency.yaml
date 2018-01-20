@@ -8,7 +8,7 @@ sensor:
   - platform: cryptocompare
     currency: XMR
     display_currency: BTC
-    display_round: 5
+    display_round: 7
   - platform: cryptonodepool
     pool_address: !secret first_pool_address
     wallet_address: !secret first_wallet_address
