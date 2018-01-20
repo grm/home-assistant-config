@@ -85,7 +85,7 @@ class CryptoCompareSensor(Entity):
     @property
     def state(self):
         """Return the state of the sensor."""
-        return round(float(self._ticker['AggregatedData']['PRICE']), float(self._round))
+        return round(float(self._ticker['AggregatedData']['PRICE']), int(self._round))
 
     @property
     def unit_of_measurement(self):
