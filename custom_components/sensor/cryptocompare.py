@@ -33,8 +33,10 @@ ATTR_NET_HASH_PER_SECOND = 'net_hash_per_second'
 
 CONF_ATTRIBUTION = "Data provided by CryptoCompare"
 
+CONF_DISPLAY_ROUND = 'display_round'
 DEFAULT_CURRENCY = 'bitcoin'
 DEFAULT_DISPLAY_CURRENCY = 'USD'
+DEFAULT_DISPLAY_ROUND = 2
 
 ICON = 'mdi:currency-usd'
 
@@ -42,8 +44,8 @@ SCAN_INTERVAL = timedelta(minutes=15)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Optional(CONF_CURRENCY, default=DEFAULT_CURRENCY): cv.string,
-    vol.Optional(CONF_DISPLAY_CURRENCY, default=DEFAULT_DISPLAY_CURRENCY):
-        cv.string,
+    vol.Optional(CONF_DISPLAY_CURRENCY, default=DEFAULT_DISPLAY_CURRENCY): cv.string,
+    vol.Optional(CONF_DISPLAY_ROUND, default=DEFAULT_DISPLAY_ROUND): cv.string,
 })
 
 
@@ -61,18 +63,19 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
         display_currency = DEFAULT_DISPLAY_CURRENCY
 
     add_devices([CryptoCompareSensor(
-        CryptoCompareData(currency, display_currency))], True)
+        CryptoCompareData(currency, display_currency), config.get(CONF_DISPLAY_ROUND))], True)
 
 
 class CryptoCompareSensor(Entity):
     """Representation of a CoinMarketCap sensor."""
 
-    def __init__(self, data):
+    def __init__(self, data, round):
         """Initialize the sensor."""
         self.data = data
         self._ticker = None
         self._unit_of_measurement = self.data.display_currency.upper()
         self._name = self.data.currency.upper()
+        self._round = round
 
     @property
     def name(self):
@@ -82,7 +85,7 @@ class CryptoCompareSensor(Entity):
     @property
     def state(self):
         """Return the state of the sensor."""
-        return round(float(self._ticker['AggregatedData']['PRICE']), 2)
+        return round(float(self._ticker['AggregatedData']['PRICE']), float(self._round))
 
     @property
     def unit_of_measurement(self):
