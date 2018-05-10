@@ -8,5 +8,5 @@ script:
 before_install:
   - mv secrets.sample.yaml secrets.yaml
   - sudo mkdir /ssl/
-  - touch /ssl/fullchain.pem
-  - touch /ssl/privkey.pem
+  - sudo touch /ssl/fullchain.pem
+  - sudo touch /ssl/privkey.pem
