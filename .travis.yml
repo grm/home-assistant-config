@@ -7,3 +7,5 @@ script:
   - hass -c . --script check_config
 before_install:
   - mv secrets.sample.yaml secrets.yaml
+  - touch /ssl/fullchain.pem
+  - touch /ssl/privkey.pem
