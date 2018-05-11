@@ -3,3 +3,5 @@ multimedia_salon:
   icon: mdi:sofa
   entities:
     - media_player.tv_salon
+    - media_player.samsung_8_series_75_ue75ks8000
+    - media_player.shield
