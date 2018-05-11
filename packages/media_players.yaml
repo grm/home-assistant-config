@@ -1,0 +1,7 @@
+media_player:
+  - platform: cast
+    host: 192.168.254.50
+  - platform: kodi
+    host: 192.168.254.50
+  - platform: samsungtv
+    host: 192.168.254.51
