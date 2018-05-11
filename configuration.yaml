@@ -91,7 +91,7 @@ conversation:
 # Enables support for tracking state changes over time
 history: !include history.yaml
 
-# recorder:
+recorder: !include recorder.yaml
 #   purge_interval: 2
 #   purge_keep_days: 5
 
