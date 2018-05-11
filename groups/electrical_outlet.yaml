@@ -1,0 +1,26 @@
+outlet_amplifier:
+  name: Prise Ampli
+  icon: mdi:power-socket-eu
+#  icon: mdi:power-settings
+  entities:
+    - switch.prise_ampli_switch
+    - sensor.prise_ampli_power
+    - sensor.prise_ampli_energy
+
+outlet_tv:
+  name: Prise TV
+  icon: mdi:power-socket-eu
+#  icon: mdi:power-settings
+  entities:
+    - switch.prise_tv_switch
+    - sensor.prise_tv_power
+    - sensor.prise_tv_energy
+
+outlet_baie_info:
+  name: Prise Baie Info
+  icon: mdi:power-socket-eu
+#  icon: mdi:power-settings
+  entities:
+    - switch.prise_baie_info_switch
+    - sensor.prise_baie_info_power
+    - sensor.prise_baie_info_energy

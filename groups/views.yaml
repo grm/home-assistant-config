@@ -19,6 +19,14 @@ gaming_view:
   entities:
     - group.steam
 
+power_view:
+  view: yes
+  name: Power
+  entities:
+    - group.outlet_amplifier
+    - group.outlet_tv
+    - group.outlet_baie_info
+
 environment_view:
   view: yes
   name: Environnement
