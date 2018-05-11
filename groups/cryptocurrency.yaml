@@ -1,0 +1,9 @@
+crypto_monero:
+  name: Monero inforamtion
+  icon: mdi:bitcoin
+  entities:
+    - sensor.minexmr
+    - sensor.xmr_2
+    - sensor.xmr
+    - sensor.xmr_3
+

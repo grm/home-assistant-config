@@ -13,11 +13,12 @@ multimedia_view:
   entities:
     - group.multimedia_salon
 
-gaming_view:
+grm_view:
   view: yes
-  name: Gaming
+  name: Grm
   entities:
     - group.steam
+    - group.crypto_monero
 
 power_view:
   view: yes
