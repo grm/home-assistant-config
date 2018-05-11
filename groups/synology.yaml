@@ -1,0 +1,13 @@
+synology1:
+  name: Synology 1
+  icon: mdi:speedometer
+  entities:
+    - sensor.cpu_total_load
+    - sensor.memory_real_usage
+    - sensor.network_up
+    - sensor.network_down
+    - sensor.disk_smart_status
+    - sensor.disk_status
+    - sensor.disk_temp
+    - sensor.volume_status
+    - sensor.volume_percentage_used

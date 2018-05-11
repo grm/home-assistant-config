@@ -41,3 +41,4 @@ system_view:
   entities:
     - group.systemmonitor
     - group.speedtest
+    - group.synology1
