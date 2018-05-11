@@ -2,12 +2,39 @@ synology1:
   name: Synology 1
   icon: mdi:speedometer
   entities:
-    - sensor.cpu_total_load
-    - sensor.memory_real_usage
+    - sensor.cpu_load_total
+    - sensor.memory_usage_real
     - sensor.network_up
     - sensor.network_down
-    - sensor.disk_smart_status
-    - sensor.disk_status
-    - sensor.disk_temp
-    - sensor.volume_status
-    - sensor.volume_percentage_used
+    - sensor.status_volume_1
+    - sensor.volume_used_volume_1
+    - sensor.status_sda
+    - sensor.status_sdb
+    - sensor.status_sdc
+    - sensor.status_sdd
+    - sensor.status_sde
+    - sensor.status_sdf
+    - sensor.status_sdg
+    - sensor.status_sdh
+    - sensor.status_sdi
+    - sensor.status_sdj
+    - sensor.status_smart_sda
+    - sensor.status_smart_sdb
+    - sensor.status_smart_sdc
+    - sensor.status_smart_sdd
+    - sensor.status_smart_sde
+    - sensor.status_smart_sdf
+    - sensor.status_smart_sdg
+    - sensor.status_smart_sdh
+    - sensor.status_smart_sdi
+    - sensor.status_smart_sdj
+    - sensor.temperature_sda
+    - sensor.temperature_sdb
+    - sensor.temperature_sdc
+    - sensor.temperature_sdd
+    - sensor.temperature_sde
+    - sensor.temperature_sdf
+    - sensor.temperature_sdg
+    - sensor.temperature_sdh
+    - sensor.temperature_sdi
+    - sensor.temperature_sdj
