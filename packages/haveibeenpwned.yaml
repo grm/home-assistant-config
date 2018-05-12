@@ -1,0 +1,7 @@
+sensor:
+  # Date and time
+  - platform: haveibeenpwned
+    email:
+      - grm.klein@gmail.com
+      - jklein@ymagis.com
+      - laurence2701@gmail.com
