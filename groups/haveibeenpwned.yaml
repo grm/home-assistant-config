@@ -1,0 +1,7 @@
+haveibeenpwned:
+  name: Have I been pwned
+  icon: mdi:email-secure
+  entities:
+    - sensor.breaches_grmkleingmailcom
+    - sensor.breaches_jkleinymagiscom
+    - sensor.breaches_laurence2701gmailcom

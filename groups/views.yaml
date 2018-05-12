@@ -19,6 +19,7 @@ grm_view:
   entities:
     - group.steam
     - group.crypto_monero
+    - group.haveibeenpwned
 
 power_view:
   view: yes
