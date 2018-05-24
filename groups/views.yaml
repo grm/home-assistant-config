@@ -13,6 +13,13 @@ multimedia_view:
   entities:
     - group.multimedia_salon
 
+sensor_view:
+  view: yes
+  name: Sensor
+  entities:
+    - salon_1_sensor
+    - cuisine_sensor
+
 grm_view:
   view: yes
   name: Grm
