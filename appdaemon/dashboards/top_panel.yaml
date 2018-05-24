@@ -17,23 +17,23 @@ side_humidity:
     units: "%"
     entity: sensor.side_humidity_corrected
 
-andrew_presence:
+grm_presence:
     widget_type: device_tracker
-    title: Andrew
-    device: 24dcbba223194e62b7965aa9012b1ad0
+    title: Grm
+    device: device_tracker.grm_phone_grm_phone
     enable: 1
 #    icon_on: fa-male
 #    icon_off: fa-male
 #    icon_style_active: "color: #4bcdea"
 
-wendy_presence:
+lolo_presence:
     widget_type: device_tracker
-    title: Wendy
+    title: Lolo
     enable: 1
 #    icon_style_active: "color: #ea4b82"
 #    icon_on: fa-female
 #    icon_off: fa-female
-    device: dedb5e711a24415baaae5cf8e880d852
+    device: device_tracker.lolo_phone_lolo_phone
 
 mode:
     widget_type: sensor
@@ -65,18 +65,30 @@ alarm:
     state_style: "font-size: 250%;"
     title_style: "color: white"
 
-wendy_home_to_work:
+lolo_home_to_work:
   widget_type: sensor
-  entity: sensor.wendy_home_to_work
-  title: Wendy
-  title2: Home to Work
-
-wendy_work_to_home:
-  widget_type: sensor
-  entity: sensor.wendy_work_to_home
-  title: Wendy
+  entity: sensor.lolo_home__work
+  title: Lolo
   title2: Work to Home
 
+grm_home_to_work:
+  widget_type: sensor
+  entity: sensor.grm_home__work
+  title: Grm
+  title2: Work to Home
+
+lolo_to_home:
+  widget_type: sensor
+  entity: sensor.sensor.grm_to_home
+  title: Grm
+  title2: To home
+
+grm_to_home:
+  widget_type: sensor
+  entity: sensor.sensor.lolo_to_home
+  title: Lolo
+  title2: To home
+
 layout:
-    - clock.clock(2x1), weather(2x2), wendy_home_to_work, wendy_work_to_home, andrew_presence, wendy_presence
-    - mode(2x1), alarm(2x1), lock.front_door_lock_locked, garage
+    - clock.clock(2x1), weather(2x2), grm_home_to_work, lolo_home_to_work, grm_presence, lolo_presence
+    - mode(2x1), alarm(2x1), grm_to_home, lolo_to_home

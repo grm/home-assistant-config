@@ -2,7 +2,7 @@ load_main_panel:
     widget_type: navigate
     title: Main Panel
     icon_inactive: fa-home
-    dashboard: MainPanel
+    dashboard: Main
 
 load_office_panel:
     widget_type: navigate
