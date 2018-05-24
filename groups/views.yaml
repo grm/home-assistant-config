@@ -43,6 +43,10 @@ environment_view:
     - group.datetimeweather
     - group.traveltimes
     - group.pollution
+    - group.datetimeweather_1
+    - group.datetimeweather_2
+    - group.datetimeweather_3
+    - group.datetimeweather_4
 
 system_view:
   view: yes

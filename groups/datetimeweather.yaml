@@ -25,3 +25,103 @@ datetimeweather:
     - sensor.dark_sky_wind_speed
     - sun.sun
     - sensor.moon
+
+datetimeweather_1:
+  name: Demain
+  icon: mdi:home
+  entities:
+    - sensor.dark_sky_icon_1
+    - sensor.dark_sky_summary_1
+    - sensor.dark_sky_temperature_1
+    - sensor.dark_sky_apparent_temperature_1
+    - sensor.dark_sky_cloud_coverage_1
+    - sensor.dark_sky_daily_high_apparent_temperature_1
+    - sensor.dark_sky_daily_high_temperature_1
+    - sensor.dark_sky_daily_low_apparent_temperature_1
+    - sensor.dark_sky_daily_low_temperature_1
+    - sensor.dark_sky_daily_max_precip_intensity_1
+    - sensor.dark_sky_nearest_storm_distance_1
+    - sensor.dark_sky_precip_1
+    - sensor.dark_sky_precip_accumulation_1
+    - sensor.dark_sky_precip_intensity_1
+    - sensor.dark_sky_precip_probability_1
+    - sensor.dark_sky_pressure_1
+    - sensor.dark_sky_uv_index_1
+    - sensor.dark_sky_visibility_1
+    - sensor.dark_sky_wind_bearing_1
+    - sensor.dark_sky_wind_speed_1
+
+datetimeweather_2:
+  name: Après demain
+  icon: mdi:home
+  entities:
+    - sensor.dark_sky_icon_2
+    - sensor.dark_sky_summary_2
+    - sensor.dark_sky_temperature_2
+    - sensor.dark_sky_apparent_temperature_2
+    - sensor.dark_sky_cloud_coverage_2
+    - sensor.dark_sky_daily_high_apparent_temperature_2
+    - sensor.dark_sky_daily_high_temperature_2
+    - sensor.dark_sky_daily_low_apparent_temperature_2
+    - sensor.dark_sky_daily_low_temperature_2
+    - sensor.dark_sky_daily_max_precip_intensity_2
+    - sensor.dark_sky_nearest_storm_distance_2
+    - sensor.dark_sky_precip_2
+    - sensor.dark_sky_precip_accumulation_2
+    - sensor.dark_sky_precip_intensity_2
+    - sensor.dark_sky_precip_probability_2
+    - sensor.dark_sky_pressure_2
+    - sensor.dark_sky_uv_index_2
+    - sensor.dark_sky_visibility_2
+    - sensor.dark_sky_wind_bearing_2
+    - sensor.dark_sky_wind_speed_2
+
+datetimeweather_3:
+  name: Général
+  icon: mdi:home
+  entities:
+    - sensor.dark_sky_icon_3
+    - sensor.dark_sky_summary_3
+    - sensor.dark_sky_temperature_3
+    - sensor.dark_sky_apparent_temperature_3
+    - sensor.dark_sky_cloud_coverage_3
+    - sensor.dark_sky_daily_high_apparent_temperature_3
+    - sensor.dark_sky_daily_high_temperature_3
+    - sensor.dark_sky_daily_low_apparent_temperature_3
+    - sensor.dark_sky_daily_low_temperature_3
+    - sensor.dark_sky_daily_max_precip_intensity_3
+    - sensor.dark_sky_nearest_storm_distance_3
+    - sensor.dark_sky_precip_3
+    - sensor.dark_sky_precip_accumulation_3
+    - sensor.dark_sky_precip_intensity_3
+    - sensor.dark_sky_precip_probability_3
+    - sensor.dark_sky_pressure_3
+    - sensor.dark_sky_uv_index_3
+    - sensor.dark_sky_visibility_3
+    - sensor.dark_sky_wind_bearing_3
+    - sensor.dark_sky_wind_speed_3
+
+datetimeweather_4:
+  name: Général
+  icon: mdi:home
+  entities:
+    - sensor.dark_sky_icon_4
+    - sensor.dark_sky_summary_4
+    - sensor.dark_sky_temperature_4
+    - sensor.dark_sky_apparent_temperature_4
+    - sensor.dark_sky_cloud_coverage_4
+    - sensor.dark_sky_daily_high_apparent_temperature_4
+    - sensor.dark_sky_daily_high_temperature_4
+    - sensor.dark_sky_daily_low_apparent_temperature_4
+    - sensor.dark_sky_daily_low_temperature_4
+    - sensor.dark_sky_daily_max_precip_intensity_4
+    - sensor.dark_sky_nearest_storm_distance_4
+    - sensor.dark_sky_precip_4
+    - sensor.dark_sky_precip_accumulation_4
+    - sensor.dark_sky_precip_intensity_4
+    - sensor.dark_sky_precip_probability_4
+    - sensor.dark_sky_pressure_4
+    - sensor.dark_sky_uv_index_4
+    - sensor.dark_sky_visibility_4
+    - sensor.dark_sky_wind_bearing_4
+    - sensor.dark_sky_wind_speed_4
