@@ -17,8 +17,8 @@ sensor_view:
   view: yes
   name: Sensor
   entities:
-    - group.salon_1_sensor
-    - group.cuisine_sensor
+    - group.sensor_salon_1
+    - group.sensor_cuisine
 
 grm_view:
   view: yes

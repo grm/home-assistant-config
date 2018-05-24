@@ -1,6 +1,5 @@
-salon_1_sensor:
+sensor_salon_1:
   name: Salon
-#  icon: mdi:power-settings
   entities:
     - sensor.philio_technology_corporation_psm021_slim_multisensor_temperature
     - sensor.philio_technology_corporation_psm021_slim_multisensor_luminance
@@ -8,9 +7,8 @@ salon_1_sensor:
     - binary_sensor.philio_technology_corporation_psm021_slim_multisensor_tamper_sensor
     - binary_sensor.sensor
 
-cuisine_sensor:
+sensor_cuisine:
   name: Cuisine
-#  icon: mdi:power-settings
   entities:
     - sensor.philio_technology_corporation_psm021_slim_multisensor_temperature_2
     - sensor.philio_technology_corporation_psm021_slim_multisensor_luminance_2
