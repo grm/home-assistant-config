@@ -20,7 +20,7 @@ side_humidity:
 grm_presence:
     widget_type: device_tracker
     title: Grm
-    device: device_tracker.grm_phone_grm_phone
+    device: grm_phone_grm_phone
     enable: 1
 #    icon_on: fa-male
 #    icon_off: fa-male
@@ -33,7 +33,7 @@ lolo_presence:
 #    icon_style_active: "color: #ea4b82"
 #    icon_on: fa-female
 #    icon_off: fa-female
-    device: device_tracker.lolo_phone_lolo_phone
+    device: lolo_phone_lolo_phone
 
 mode:
     widget_type: sensor
@@ -69,13 +69,13 @@ lolo_home_to_work:
   widget_type: sensor
   entity: sensor.lolo_home__work
   title: Lolo
-  title2: Work to Home
+  title2: Home to Work
 
 grm_home_to_work:
   widget_type: sensor
   entity: sensor.grm_home__work
   title: Grm
-  title2: Work to Home
+  title2: Home to Work
 
 lolo_to_home:
   widget_type: sensor
