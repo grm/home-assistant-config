@@ -29,4 +29,8 @@ sensor:
       - precip_accumulation
       - visibility
       - nearest_storm_distance
+      - nearest_storm_bearing
       - uv_index
+      - minutely_summary
+      - hourly_summary
+      - daily_summary
