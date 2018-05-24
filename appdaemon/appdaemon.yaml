@@ -9,7 +9,7 @@ appdaemon:
   plugins:
     HASS:
       type: hass
-      ha_url: https://192.168.254.1:8123/
+      ha_url: http://hassio/homeassistant
       ha_key: !secret home_assistant_key
       cert_verify: false
 hadashboard:
