@@ -1,0 +1,26 @@
+sensor:
+  - platform: darksky
+    api_key: !secret dark_sky_key
+    update_interval: '00:05:00'
+    monitored_conditions:
+      - summary
+      - temperature
+      - temperature_max
+      - temperature_min
+      - apparent_temperature
+      - apparent_temperature_max
+      - apparent_temperature_min
+      - icon
+      - humidity
+      - pressure
+      - wind_speed
+      - wind_bearing
+      - cloud_cover
+      - precip_type
+      - precip_intensity
+      - precip_intensity_max
+      - precip_probability
+      - precip_accumulation
+      - visibility
+      - nearest_storm_distance
+      - uv_index
