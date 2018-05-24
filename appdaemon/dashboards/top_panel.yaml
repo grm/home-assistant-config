@@ -79,13 +79,13 @@ grm_home_to_work:
 
 lolo_to_home:
   widget_type: sensor
-  entity: sensor.sensor.grm_to_home
+  entity: sensor.grm_to_home
   title: Grm
   title2: To home
 
 grm_to_home:
   widget_type: sensor
-  entity: sensor.sensor.lolo_to_home
+  entity: sensor.lolo_to_home
   title: Lolo
   title2: To home
 
