@@ -1,7 +1,13 @@
 sensor:
   - platform: darksky
+    language: "fr"
     api_key: !secret dark_sky_key
     update_interval: '00:05:00'
+    forecast:
+      - 1
+      - 2
+      - 3
+      - 4
     monitored_conditions:
       - summary
       - temperature
