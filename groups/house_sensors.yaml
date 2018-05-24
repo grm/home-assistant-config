@@ -1,17 +1,17 @@
 sensor_salon_1:
   name: Salon
   entities:
-    - sensor.philio_technology_corporation_psm021_slim_multisensor_temperature
-    - sensor.philio_technology_corporation_psm021_slim_multisensor_luminance
-    - binary_sensor.philio_technology_corporation_psm021_slim_multisensor_doorwindow_sensor
-    - binary_sensor.philio_technology_corporation_psm021_slim_multisensor_tamper_sensor
+    - sensor.sensor_salon_4in1_1_temperature
+    - sensor.sensor_salon_4in1_1_luminance
+    - binary_sensor.sensor_salon_4in1_1_doorwindow_sensor
+    - binary_sensor.sensor_salon_4in1_1_tamper_sensor
     - binary_sensor.sensor
 
 sensor_cuisine:
   name: Cuisine
   entities:
-    - sensor.philio_technology_corporation_psm021_slim_multisensor_temperature_2
-    - sensor.philio_technology_corporation_psm021_slim_multisensor_luminance_2
-    - binary_sensor.philio_technology_corporation_psm021_slim_multisensor_doorwindow_sensor_2
-    - binary_sensor.philio_technology_corporation_psm021_slim_multisensor_tamper_sensor_2
+    - sensor.sensor_cuisine_4in1_temperature
+    - sensor.sensor_cuisine_4in1_luminance
+    - binary_sensor.sensor_cuisine_4in1_doorwindow_sensor
+    - binary_sensor.sensor_cuisine_4in1_tamper_sensor
     - binary_sensor.sensor_2
