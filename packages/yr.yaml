@@ -2,17 +2,17 @@
 #
 # Provides Sun, Moon, Weather, Date & Time
 
-sensor:
+#sensor:
   # Weather Prediction
-  - platform: yr
-    monitored_conditions:
-      - symbol
-      - temperature
-      - precipitation
-      - windSpeed
-      - windDirection
-      - humidity
-      - cloudiness
-      - fog
-      - pressure
+#  - platform: yr
+#    monitored_conditions:
+#      - symbol
+#      - temperature
+#      - precipitation
+#      - windSpeed
+#      - windDirection
+#      - humidity
+#      - cloudiness
+#      - fog
+#      - pressure
       #- dewpointTemperature
