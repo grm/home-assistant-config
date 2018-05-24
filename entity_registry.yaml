@@ -186,3 +186,15 @@ sensor.prise_baie_info_power_management:
   name:
   platform: zwave
   unique_id: 4-72057594111082673
+zwave.prise_baie_info:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.sensor_salon_4in1_1:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.sensor_cuisine_4in1:
+  name:
+  platform: zwave
+  unique_id: node-6
