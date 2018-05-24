@@ -1,60 +1,38 @@
-clock:
-    widget_type: clock
-
-weather:
-    widget_type: weather
-    units: "&deg;F"
-
-side_temperature:
-    widget_type: sensor
-    title: Temperature
-    units: "&deg;F"
-    precision: 0
-    entity: sensor.side_temp_corrected
-
-side_humidity:
-    widget_type: sensor
-    title: Humidity
-    units: "%"
-    precision: 0
-    entity: sensor.side_humidity_corrected
-
-andrew_presence:
-    widget_type: device_tracker
-    title: Andrew
-    device: andrews_iphone
-
-wendy_presence:
-    widget_type: device_tracker
-    title: Wendy
-    device: dedb5e711a24415baaae5cf8e880d852
-
-mode:
-    widget_type: sensor
-    title: House Mode
+morning:
+    widget_type: mode
+    icon_on: fa-clock-o
+    icon_off: fa-clock-o
+    title: Morning   
     entity: input_select.house_mode
+    mode: Morning
+    script: script.morning
 
-light_level:
-    widget_type: sensor
-    title: Light Level
-    units: "lux"
-    precision: 0
-    shorten: 1
-    entity: sensor.side_multisensor_luminance_25_3
+day:
+    widget_type: mode
+    title: Day
+    icon_on: fa-sun-o
+    icon_off: fa-sun-o
+    entity: input_select.house_mode
+    mode: Day
+    script: script.day
 
-porch_motion:
-    widget_type: binary_sensor
-    title: Porch
-    entity: binary_sensor.porch_multisensor_sensor_27_0
+evening:
+    widget_type: mode
+    title: Evening
+    icon_on: fa-moon-o
+    icon_off: fa-moon-o
+    entity: input_select.house_mode
+    mode: Evening
+    script: script.evening
 
-garage:
-    widget_type: switch
-    title: Garage
-    entity: switch.garage_door
-    icon_on: fa-car
-    icon_off: fa-car
-    warn: 1
+night:
+    widget_type: mode
+    title: Night
+    icon_on: fa-star-o
+    icon_off: fa-star-o
+    entity: input_select.house_mode
+    mode: Night
+    script: script.night
 
-layout:
-    - clock(2x1), weather(2x2), side_temperature, side_humidity, andrew_presence, wendy_presence
-    - mode(2x1), light_level(2x1), porch_motion, garage
+layout: 
+    - morning(2x1), day(2x1), evening(2x1), night(2x1)
