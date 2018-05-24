@@ -17,8 +17,13 @@ sensor_view:
   view: yes
   name: Sensor
   entities:
+<<<<<<< HEAD
     - group.sensor_salon_1
     - group.sensor_cuisine
+=======
+    - salon_1_sensor
+    - cuisine_sensor
+>>>>>>> 3804027b0a9cf9d530525d277ee1b0ff67ebc7e9
 
 grm_view:
   view: yes
