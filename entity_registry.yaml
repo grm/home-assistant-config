@@ -1,0 +1,188 @@
+sensor.us_main_pollutant:
+  name:
+  platform: airvisual
+  unique_id: Paris,Ile-de-France,France_main_pollutant
+sensor.us_air_quality_index:
+  name:
+  platform: airvisual
+  unique_id: Paris,Ile-de-France,France_aqi
+sensor.us_air_pollution_level:
+  name:
+  platform: airvisual
+  unique_id: Paris,Ile-de-France,France_pollution_level
+media_player.shield:
+  name:
+  platform: cast
+  unique_id: e69897fa-7b79-daa0-bea4-1407a1950a94
+media_player.ampli:
+  name:
+  platform: cast
+  unique_id: 66ab5510-d39f-c52a-da4f-4c29f58e0d16
+media_player.chambre_parentale:
+  name:
+  platform: cast
+  unique_id: 9104e125-3753-2b0a-b938-a816f3e9d970
+media_player.tv:
+  name:
+  platform: cast
+  unique_id: 51aca41e-4e5a-9890-9e92-3abdfcdf965a
+zwave.zwave_stick_1:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.prise_ampli:
+  name:
+  platform: zwave
+  unique_id: node-2
+switch.prise_ampli_switch:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076282880
+sensor.prise_ampli_power:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076479554
+sensor.prise_ampli_energy:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076495874
+sensor.prise_ampli_power_2:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076496002
+sensor.prise_ampli_exporting:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076496384
+zwave.prise_tv:
+  name:
+  platform: zwave
+  unique_id: node-3
+sensor.prise_ampli_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.prise_ampli_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528081
+sensor.prise_ampli_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.prise_ampli_power_management:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528241
+switch.prise_tv_switch:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+sensor.prise_tv_power:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256770
+sensor.prise_tv_energy:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273090
+sensor.prise_tv_power_2:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273218
+sensor.prise_tv_exporting:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273600
+sensor.prise_tv_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.prise_tv_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.prise_tv_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.prise_tv_power_management:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305457
+switch.switch:
+  name:
+  platform: zwave
+  unique_id: 4-72057594109837312
+binary_sensor.sensor:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126794752
+binary_sensor.sensor_2:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143571968
+binary_sensor.sensor_salon_4in1_1_doorwindow_sensor:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126794768
+binary_sensor.sensor_salon_4in1_1_tamper_sensor:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126794784
+sensor.sensor_salon_4in1_1_temperature:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811154
+sensor.sensor_salon_4in1_1_luminance:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811186
+binary_sensor.sensor_cuisine_4in1_doorwindow_sensor:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143571984
+binary_sensor.sensor_cuisine_4in1_tamper_sensor:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143572000
+sensor.sensor_cuisine_4in1_temperature:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588370
+sensor.sensor_cuisine_4in1_luminance:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588402
+sensor.prise_baie_info_unknown:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050306
+sensor.prise_baie_info_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082497
+sensor.prise_baie_info_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082513
+sensor.prise_baie_info_power:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110033986
+sensor.prise_baie_info_power_2:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050434
+sensor.prise_baie_info_exporting:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050816
+sensor.prise_baie_info_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082529
+sensor.prise_baie_info_power_management:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082673
