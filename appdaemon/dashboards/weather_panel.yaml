@@ -4,7 +4,8 @@ weather_frame:
     refresh: 300
     frame_style: ""
     img_list:
-      - https://www.meteo60.fr/radars/animation-radar-france-simple.gif
+#https://en.sat24.com/en/freeimages
+      - https://api.sat24.com/crop?type=rainTMC&lat=48.9185&lon=1.9698&width=600&height=600&zoom=1.00&continent=eu
 
 
 
