@@ -9,8 +9,9 @@ appdaemon:
   plugins:
     HASS:
       type: hass
-      ha_url: http://hassio/homeassistant
+      ha_url: https://127.0.0.1:8123/
       ha_key: !secret home_assistant_key
+      cert_verify: false
 hadashboard:
   dash_url: http://127.0.0.1:5050
   dash_dir: /config/appdaemon/dashboards
