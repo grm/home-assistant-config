@@ -2,7 +2,7 @@ living_room_tv:
     widget_type: switch
     title: TV
     title2: Salon
-    entity: sensor.sensor_salon_4in1_1_temperature
+    entity: switch.tv_samsung
     icon_on: fa-television
     icon_off: fa-television
 
