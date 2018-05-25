@@ -1,0 +1,4 @@
+- platform: generic_thermostat
+  name: Living Room
+# heater: switch.study_heater
+  target_sensor: sensor.sensor_salon_4in1_1_temperature
