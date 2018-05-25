@@ -1,4 +1,3 @@
-media_player:
-  - platform: liveboxplaytv
-    host: 192.168.254.105
-    name: Livebox TV
+- platform: liveboxplaytv
+  host: 192.168.254.105
+  name: Livebox TV
