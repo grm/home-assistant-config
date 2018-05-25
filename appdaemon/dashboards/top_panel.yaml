@@ -90,5 +90,5 @@ grm_to_home:
   title2: To home
 
 layout:
-    - clock.clock(2x1), weather(2x2), grm_home_to_work, lolo_home_to_work, grm_presence, lolo_presence
-    - mode(2x1), alarm(2x1), grm_to_home, lolo_to_home
+    - clock.clock(2x1), weather(2x2), grm_to_home, lolo_to_home, grm_presence, lolo_presence
+    - mode(2x1), alarm(2x1), grm_home_to_work, lolo_home_to_work
