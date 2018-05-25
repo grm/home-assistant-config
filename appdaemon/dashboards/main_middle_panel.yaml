@@ -8,30 +8,46 @@
 #      brightness: 255
 #      color_temp: 276
 
+#living_room_thermometer:
+#    widget_type: climate
+#    title: Salon
+#    units: "&deg;C"
+#    entity: sensor.sensor_salon_4in1_1_temperature
+#
+#kitchen_thermometer:
+#    widget_type: climate
+#    title: Cuisine
+#    units: "&deg;C"
+#    entity: sensor.sensor_cuisine_4in1_temperature
+
 living_room_thermometer:
-    widget_type: climate
-    title: Salon
-    units: "&deg;C"
-    entity: sensor.sensor_salon_4in1_1_temperature
-
-kitchen_thermometer:
-    widget_type: climate
-    title: Cuisine
-    units: "&deg;C"
-    entity: sensor.sensor_cuisine_4in1_temperature
-
-basement_thermometer:
-    widget_type: climate
-    title: Basement
-    units: "&deg;C"
-    entity: climate.basement_thermostat_heating_1
-
-light_level:
     widget_type: sensor
     title: Light Level
     units: "&deg;C"
     entity: sensor.sensor_salon_4in1_1_temperature
 
+living_room_light_level:
+    widget_type: sensor
+    title: Light Level
+    units: "lux"
+    precision: 0
+    shorten: 1
+    entity: sensor.sensor_salon_4in1_1_luminance
+
+kitchen_thermometer:
+    widget_type: sensor
+    title: Light Level
+    units: "&deg;C"
+    entity: sensor.sensor_cuisine_4in1_temperature
+
+kitchen_light_level:
+    widget_type: sensor
+    title: Light Level
+    units: "lux"
+    precision: 0
+    shorten: 1
+    entity: sensor.sensor_cuisine_4in1_luminance
+
 layout:
-    - living_room_thermometer, spacer(1x1), kitchen_thermometer, scene.downstairs_bright, upstairs_thermometer, downstairs_thermometer, basement_thermometer, light_level
+    - living_room_thermometer, living_room_light_level, kitchen_thermometer, kitchen_light_level, upstairs_thermometer, downstairs_thermometer, basement_thermometer, spacer(1x1)
     - scene.outside_bright, scene.outside_off, scene.porch_on, scene.porch_off, input_boolean.night_outside_motion, input_boolean.guest, input_boolean.cooling, input_boolean.heating
