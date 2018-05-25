@@ -55,5 +55,5 @@ living_room_movement:
     icon_off: mdi-walk
 
 layout:
-  - living_room_tv, tv_outlet, amplifier_outlet, spacer, living_room_temperature(2x1), living_room_luminance(2x1)
+  - living_room_tv, living_room_livebox, tv_outlet, amplifier_outlet, living_room_temperature(2x1), living_room_luminance(2x1)
   - spacer(4x1), living_room_door_open(2x1), living_room_movement(2x1)
