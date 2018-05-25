@@ -1,6 +1,6 @@
 - platform: template
   switches:
-    tv_samsung:
+    livebox:
       friendly_name: 'Livebox'
       value_template: "{{ is_state('media_player.livebox_tv', 'on') }}"
       turn_on:
