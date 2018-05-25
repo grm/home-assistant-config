@@ -7,7 +7,7 @@ side_temperature:
 
 weather:
     widget_type: weather
-    units: "&deg;F"
+    units: "&deg;C"
 
 side_humidity:
     widget_type: gauge
