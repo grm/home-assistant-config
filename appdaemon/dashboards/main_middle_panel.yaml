@@ -22,13 +22,13 @@
 
 living_room_thermometer:
     widget_type: sensor
-    title: Light Level
+    title: Température Salon
     units: "&deg;C"
     entity: sensor.sensor_salon_4in1_1_temperature
 
 living_room_light_level:
     widget_type: sensor
-    title: Light Level
+    title: Luminosité Salon
     units: "lux"
     precision: 0
     shorten: 1
@@ -36,13 +36,13 @@ living_room_light_level:
 
 kitchen_thermometer:
     widget_type: sensor
-    title: Light Level
+    title: Température Cuisine
     units: "&deg;C"
     entity: sensor.sensor_cuisine_4in1_temperature
 
 kitchen_light_level:
     widget_type: sensor
-    title: Light Level
+    title: Luminosité Cuisine
     units: "lux"
     precision: 0
     shorten: 1
