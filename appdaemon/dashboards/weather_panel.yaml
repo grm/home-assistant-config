@@ -4,8 +4,8 @@ weather_frame:
     refresh: 300
     frame_style: ""
     img_list:
-#https://en.sat24.com/en/freeimages
       - https://api.sat24.com/crop?type=rainTMC&lat=48.9185&lon=1.9698&width=487&height=604&zoom=1.00&continent=eu
+#https://en.sat24.com/en/freeimages
 
 weather:
     widget_type: weather
@@ -14,13 +14,13 @@ weather:
 weather_1:
     widget_type: weather
     prefer_icons: 1
-    show_foreacast: 1
+    show_forecast: 1
     forecast_title: Demain
 
 weather_2:
     widget_type: weather
     prefer_icons: 1
-    show_foreacast: 2
+    show_forecast: 2
     forecast_title: Après Demain
 
 layout:
