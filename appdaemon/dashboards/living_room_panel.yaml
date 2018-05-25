@@ -7,14 +7,14 @@ living_room_tv:
 
 tv_outlet:
     widget_type: switch
-    title: Prise TV
+    title: TV
     entity: switch.prise_tv_switch
     icon_on: mdi-power-socket-eu
     icon_off: mdi-power-socket-eu
 
 amplifier_outlet:
     widget_type: switch
-    title: Prise Ampli
+    title: Ampli
     entity: switch.prise_ampli_switch
     icon_on: mdi-power-socket-eu
     icon_off: mdi-power-socket-eu
