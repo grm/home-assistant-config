@@ -8,12 +8,6 @@ side_temperature:
 weather:
     widget_type: weather
     prefer_icons: 1
-    show_forecast: 1
-    forecast:
-      - 1
-      - 2
-      - 3
-      - 4
     units: "&deg;C"
 
 side_humidity:
