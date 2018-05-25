@@ -21,7 +21,7 @@
 #    entity: sensor.sensor_cuisine_4in1_temperature
 
 living_room_thermometer:
-    widget_type: temperature
+    widget_type: sensor
     title: Température
     title2: Salon
     units: "&deg;C"
@@ -37,7 +37,7 @@ living_room_light_level:
     entity: sensor.sensor_salon_4in1_1_luminance
 
 kitchen_thermometer:
-    widget_type: temperature
+    widget_type: sensor
     title: Température
     title2: Cuisine
     units: "&deg;C"
