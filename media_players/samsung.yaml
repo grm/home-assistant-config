@@ -1,5 +1,5 @@
 - platform: samsungtv
-  host: n
+  host: 192.168.254.51
   name: TV Salon
   port: 8001
   mac: CC:B1:1A:B1:64:CE
