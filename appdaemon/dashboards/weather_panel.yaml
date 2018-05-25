@@ -7,11 +7,26 @@ weather_frame:
 #https://en.sat24.com/en/freeimages
       - https://api.sat24.com/crop?type=rainTMC&lat=48.9185&lon=1.9698&width=487&height=604&zoom=1.00&continent=eu
 
+weather:
+    widget_type: weather
+    prefer_icons: 1
 
+weather_1:
+    widget_type: weather
+    prefer_icons: 1
+    show_foreacast: 1
+    forecast_title: Demain
+
+weather_2:
+    widget_type: weather
+    prefer_icons: 1
+    show_foreacast: 2
+    forecast_title: Après Demain
 
 layout:
-    - weather_frame(4x5), sensor.dark_sky_minutely_summary(2x1), sensor.dark_sky_hourly_summary(2x1)
+    - weather_frame(4x5), sensor.dark_sky_hourly_summary(2x1), weather
     - sensor.dark_sky_daily_summary(2x1), sensor.dark_sky_pressure(2x1)
-    - sensor.dark_sky_temperature, sensor.dark_sky_apparent_temperature, sensor.dark_sky_nearest_storm_distance,  sensor.dark_sky_nearest_storm_bearing
-    - sensor.dark_sky_wind_speed(2x1), sensor.dark_sky_wind_bearing, sensor.dark_sky_humidity
+    - weather_1, weather_2
+  # - sensor.dark_sky_temperature, sensor.dark_sky_apparent_temperature, sensor.dark_sky_nearest_storm_distance,  sensor.dark_sky_nearest_storm_bearing
+  #  - sensor.dark_sky_wind_speed(2x1), sensor.dark_sky_wind_bearing, sensor.dark_sky_humidity
     - sensor.dark_sky_visibility, sensor.dark_sky_precip_probability, sensor.dark_sky_precip_intensity(2x1)
