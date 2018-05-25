@@ -1,7 +1,7 @@
 load_living_room:
     widget_type: navigate
     title: Salon
-    icon_inactive: fa-bed
+    icon_inactive: mdi-sofa
     dashboard: LivingRoom
 
 load_garage:
