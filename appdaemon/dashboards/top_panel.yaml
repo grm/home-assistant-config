@@ -9,6 +9,8 @@ weather:
     widget_type: weather
     prefer_icons: 1
     show_forcast: 1
+    forecast:
+      - 1
     units: "&deg;C"
 
 side_humidity:
