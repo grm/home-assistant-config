@@ -1,54 +1,36 @@
-load_upstairs:
-    widget_type: navigate
-    title: Upstairs
-    icon_inactive: fa-bed
-    dashboard: Upstairs
+living_room_tv:
+    widget_type: switch
+    title: TV
+    title2: Salon
+    entity: sensor.sensor_salon_4in1_1_temperature
+    icon_on: fa-television
+    icon_off: fa-television
 
-load_garage:
-    widget_type: navigate
-    title: Garage
-    icon_inactive: fa-car
-    dashboard: Garage
+living_room_light_level:
+    widget_type: sensor
+    title: Luminosité
+    title2: Salon
+    units: "lux"
+    precision: 0
+    shorten: 1
+    entity: sensor.sensor_salon_4in1_1_luminance
 
-load_basement:
-    widget_type: navigate
-    title: Basement
-    icon_inactive: mdi-radioactive
-    dashboard: Basement
+kitchen_thermometer:
+    widget_type: sensor
+    title: Température
+    title2: Cuisine
+    units: "&deg;C"
+    entity: sensor.sensor_cuisine_4in1_temperature
 
-load_downstairs:
-    widget_type: navigate
-    title: Downstairs
-    icon_inactive: fa-tv
-    dashboard: Downstairs
-
-load_outside:
-    widget_type: navigate
-    title: Outside
-    icon_inactive: fa-twitter
-    dashboard: Outside
-
-load_doors:
-    widget_type: navigate
-    title: Doors and Locks
-    icon_inactive: fa-lock
-    dashboard: Secure
-    #args:
-    #  timeout: 3
-    #  return: MainPanel
-
-load_system:
-    widget_type: navigate
-    title: System
-    icon_inactive: mdi-server
-    dashboard: System
-
-load_cameras:
-    widget_type: navigate
-    title: Cameras
-    icon_inactive: mdi-camera
-    dashboard: Cameras
+kitchen_light_level:
+    widget_type: sensor
+    title: Luminosité
+    title2: Cuisine
+    units: "lux"
+    precision: 0
+    shorten: 1
+    entity: sensor.sensor_cuisine_4in1_luminance
 
 layout:
-  - load_outside(2x1), load_upstairs(2x1), load_downstairs(2x1), load_garage(2x1)
-  - load_basement(2x1), load_doors(2x1), load_system(2x1), load_cameras(2x1)
+    - living_room_tv, living_room_light_level, kitchen_thermometer, kitchen_light_level, upstairs_thermometer, downstairs_thermometer, basement_thermometer, spacer(1x1)
+    - scene.outside_bright, scene.outside_off, scene.porch_on, scene.porch_off, input_boolean.night_outside_motion, input_boolean.guest, input_boolean.cooling, input_boolean.heating
