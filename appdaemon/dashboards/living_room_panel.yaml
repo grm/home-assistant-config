@@ -1,0 +1,10 @@
+living_room_tv:
+    widget_type: switch
+    title: TV
+    title2: Salon
+    entity: switch.tv_samsung
+    icon_on: fa-television
+    icon_off: fa-television
+
+layout:
+  - living_room_tv
