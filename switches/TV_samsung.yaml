@@ -2,12 +2,12 @@
   switches:
     tv_samsung:
       friendly_name: 'TV Salon'
-      value_template: "{{ is_state('media_player.tv_salon', 'on') }}"
+      value_template: "{{ is_state('media_player.samsung_tv_remote', 'on') }}"
       turn_on:
         service: media_player.turn_on
         data:
-          entity_id: media_player.tv_salon
+          entity_id: media_player.samsung_tv_remote
       turn_off:
         service: media_player.turn_off
         data:
-          entity_id: media_player.tv_salon
+          entity_id: media_player.samsung_tv_remote
