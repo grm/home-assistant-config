@@ -16,15 +16,31 @@ tv_outlet:
     widget_type: switch
     title: TV
     entity: switch.prise_tv_switch
-    icon_on: mdi-power-socket-eu
-    icon_off: mdi-power-socket-eu
+    icon_on: mdi-power-plug
+    icon_off: mdi-power-plug-off
+
+tv_outlet_power:
+    widget_type: sensor
+    title: TV
+    title2: Consommation
+    units: "Watt"
+    entity: sensor.prise_tv_power
+    icon: mdi-power-socket-eu
 
 amplifier_outlet:
     widget_type: switch
     title: Ampli
     entity: switch.prise_ampli_switch
-    icon_on: mdi-power-socket-eu
-    icon_off: mdi-power-socket-eu
+    icon_on: mdi-power-plug
+    icon_off: mdi-power-plug-off
+
+amplifier_outlet_power:
+    widget_type: sensor
+    title: Ampli
+    title2: Consommation
+    units: "Watt"
+    entity: sensor.prise_ampli_power
+    icon: mdi-power-socket-eu
 
 living_room_temperature:
     widget_type: sensor
@@ -56,4 +72,4 @@ living_room_movement:
 
 layout:
   - living_room_tv, living_room_livebox, tv_outlet, amplifier_outlet, living_room_temperature(2x1), living_room_luminance(2x1)
-  - spacer(4x1), living_room_door_open(2x1), living_room_movement(2x1)
+  - spacer(2x1), tv_outlet_power, amplifier_outlet_power, living_room_door_open(2x1), living_room_movement(2x1)
