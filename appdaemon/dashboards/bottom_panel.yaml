@@ -1,32 +1,26 @@
 load_main_panel:
     widget_type: navigate
-    title: Main Panel
+    title: Acceuil
     icon_inactive: fa-home
     dashboard: Main
 
-load_office_panel:
+load_weather_panel:
     widget_type: navigate
-    title: Office Panel
-    icon_inactive: fa-windows
-    dashboard: OfficePanel
-
-load_weather:
-    widget_type: navigate
-    title: Weather
+    title: Météo
     icon_inactive: fa-cloud
     dashboard: Weather
 
-load_rooms:
+load_rooms_panel:
     widget_type: navigate
-    title: Rooms
+    title: Pieces
     icon_inactive: fa-bed
     dashboard: Rooms
 
-load_controls:
+load_controls_panel:
     widget_type: navigate
-    title: Controls
+    title: Controles
     icon_inactive: fa-dashboard
     dashboard: Controls
 
 layout:
-    - load_main_panel(2x1), load_office_panel(2x1), load_weather(2x1),load_controls(2x1)
+    - load_main_panel(2x1), load_rooms_panel(2x1), load_weather_panel(2x1), load_controls_panel(2x1)
