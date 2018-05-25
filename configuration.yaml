@@ -132,6 +132,7 @@ tts:
   - platform: google
 
 climate: !include_dir_merge_list climate
+switch: !include_dir_merge_list switches
 
 group: !include_dir_merge_named groups
 automation: !include automations.yaml
