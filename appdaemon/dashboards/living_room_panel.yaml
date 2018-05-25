@@ -20,4 +20,4 @@ amplifier_outlet:
     icon_off: mdi:power-socket-eu
 
 layout:
-  - living_room_tv
+  - living_room_tv, tv_outlet, amplifier_outlet
