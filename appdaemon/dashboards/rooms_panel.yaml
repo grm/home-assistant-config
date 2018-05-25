@@ -50,4 +50,5 @@ load_cameras:
     dashboard: Cameras
 
 layout:
-  - load_outside, load_upstairs, load_downstairs, load_garage, load_basement, load_doors, load_system, load_cameras
+  - load_outside(2x1), load_upstairs(2x1), load_downstairs(2x1), load_garage(2x1)
+  - load_basement(2x1), load_doors(2x1), load_system(2x1), load_cameras(2x1)
