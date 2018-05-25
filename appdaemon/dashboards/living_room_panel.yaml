@@ -5,6 +5,13 @@ living_room_tv:
     icon_on: fa-television
     icon_off: fa-television
 
+living_room_livebox:
+    widget_type: switch
+    title: Livebox
+    entity: switch.livebox
+    icon_on: mdi-set-top-box
+    icon_off: mdi-set-top-box
+
 tv_outlet:
     widget_type: switch
     title: TV
