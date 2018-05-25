@@ -19,5 +19,34 @@ amplifier_outlet:
     icon_on: mdi-power-socket-eu
     icon_off: mdi-power-socket-eu
 
+living_room_temperature:
+    widget_type: sensor
+    title: Température
+    units: "&deg;C"
+    entity: sensor.sensor_salon_4in1_1_temperature
+
+living_room_luminance:
+    widget_type: sensor
+    title: Luminosité
+    units: "lux"
+    precision: 0
+    shorten: 1
+    entity: sensor.sensor_salon_4in1_1_luminance
+
+living_room_door_open:
+    widget_type: binary_sensor
+    title: Ouverture
+    entity: binary_sensor.sensor_salon_4in1_1_doorwindow_sensor
+    icon_on: mdi-door-open
+    icon_off: mdi-door-closed
+
+living_room_movement:
+    widget_type: binary_sensor
+    title: Mouvement
+    entity: binary_sensor.sensor
+    icon_on: mdi-run
+    icon_off: mdi-walk
+
 layout:
-  - living_room_tv, tv_outlet, amplifier_outlet
+  - living_room_tv, tv_outlet, amplifier_outlet, spacer, living_room_temperature(2x1), living_room_luminance(2x1)
+  - spacer(4x1), living_room_door_open(2x1), living_room_movement(2x1)
