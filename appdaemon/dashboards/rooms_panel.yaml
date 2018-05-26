@@ -6,7 +6,7 @@ load_living_room:
 
 load_kitchen:
     widget_type: navigate
-    title: Cuisine & Toilettes
+    title: Cuisine
     icon_inactive: mdi-fridge
     dashboard: Kitchen
 
