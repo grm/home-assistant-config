@@ -1,51 +1,105 @@
-load_living_room:
+load_upstairs:
     widget_type: navigate
-    title: Salon
-    icon_inactive: mdi-sofa
-    dashboard: LivingRoom
+    title: Upstairs
+    icon_inactive: fa-bed
+    dashboard: Upstairs
 
-load_kitchen:
+load_garage:
     widget_type: navigate
-    title: Cuisine
-    icon_inactive: mdi-fridge
-    dashboard: Kitchen
+    title: Garage
+    icon_inactive: fa-car
+    dashboard: Garage
 
-load_office:
+load_basement:
     widget_type: navigate
-    title: Bureau
-    icon_inactive: mdi-windows
-    dashboard: Office
+    title: Basement
+    icon_inactive: mdi-radioactive
+    dashboard: Basement
 
-load_garden_shed:
+load_downstairs:
     widget_type: navigate
-    title: Abri de jardin
-    icon_inactive: mdi-home-outline
-    dashboard: GardenSHed
+    title: Downstairs
+    icon_inactive: fa-tv
+    dashboard: Downstairs
 
-load_parentroom:
+load_outside:
     widget_type: navigate
-    title: Chambre parentale
-    icon_inactive: mdi-hotel
-    dashboard: ParentRoom
+    title: Outside
+    icon_inactive: fa-twitter
+    dashboard: Outside
 
-load_giuliaroom:
+load_doors:
     widget_type: navigate
-    title: Chambre de Giulia
-    icon_inactive: fa-female
-    dashboard: GiuliaRoom
+    title: Doors and Locks
+    icon_inactive: fa-lock
+    dashboard: Secure
+    #args:
+    #  timeout: 3
+    #  return: MainPanel
 
-load_secondroom:
+load_system:
     widget_type: navigate
-    title: Deuxieme Chambre
-    icon_inactive: mdi-baby-buggy
-    dashboard: SecondRoom
+    title: System
+    icon_inactive: mdi-server
+    dashboard: System
 
-load_bathroom:
+load_cameras:
     widget_type: navigate
-    title: Couloir & Salle de bain
-    icon_inactive: fa-bath
-    dashboard: Bathroom
+    title: Cameras
+    icon_inactive: mdi-camera
+    dashboard: Cameras
 
 layout:
-  - load_living_room(2x1), load_kitchen(2x1), load_office(2x1), load_garden_shed(2x1)
-  - load_parentroom(2x1), load_giuliaroom(2x1), load_secondroom(2x1), load_bathroom(2x1)
+  - load_outside, load_upstairs, load_downstairs, load_garage, load_basement, load_doors, load_system, load_cameras
+
+#load_living_room:
+#    widget_type: navigate
+#    title: Salon
+#    icon_inactive: mdi-sofa
+#    dashboard: LivingRoom
+#
+#load_kitchen:
+#    widget_type: navigate
+#    title: Cuisine & Toilettes
+#    icon_inactive: mdi-fridge
+#    dashboard: Kitchen
+#
+#load_office:
+#    widget_type: navigate
+#    title: Bureau
+#    icon_inactive: mdi-windows
+#    dashboard: Office
+#
+#load_garden_shed:
+#    widget_type: navigate
+#    title: Abri de jardin
+#    icon_inactive: mdi-home-outline
+#    dashboard: GardenSHed
+#
+#load_parentroom:
+#    widget_type: navigate
+#    title: Chambre parentale
+#    icon_inactive: mdi-hotel
+#    dashboard: ParentRoom
+#
+#load_giuliaroom:
+#    widget_type: navigate
+#    title: Chambre de Giulia
+#    icon_inactive: fa-female
+#    dashboard: GiuliaRoom
+#
+#load_secondroom:
+#    widget_type: navigate
+#    title: Deuxieme Chambre
+#    icon_inactive: mdi-baby-buggy
+#    dashboard: SecondRoom
+#
+#load_bathroom:
+#    widget_type: navigate
+#    title: Couloir & Salle de bain
+#    icon_inactive: fa-bath
+#    dashboard: Bathroom
+#
+#layout:
+#  - load_living_room(2x1), load_kitchen(2x1), load_office(2x1), load_garden_shed(2x1)
+#  - load_parentroom(2x1), load_giuliaroom(2x1), load_secondroom(2x1), load_bathroom(2x1)
