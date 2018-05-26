@@ -33,9 +33,6 @@ load_giuliaroom:
     title: Chambre de Giulia
     icon_inactive: fa-female
     dashboard: GiuliaRoom
-    #args:
-    #  timeout: 3
-    #  return: MainPanel
 
 load_secondroom:
     widget_type: navigate
@@ -45,7 +42,7 @@ load_secondroom:
 
 load_bathroom:
     widget_type: navigate
-    title: Couloir-Salle de bain
+    title: Couloir - Salle de bain
     icon_inactive: fa-bath
     dashboard: Bathroom
 
