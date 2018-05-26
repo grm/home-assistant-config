@@ -6,7 +6,7 @@ load_living_room:
 
 load_kitchen:
     widget_type: navigate
-    title: Cuisine
+    title: Cuisine - Toilettes
     icon_inactive: mdi-fridge
     dashboard: Kitchen
 
@@ -45,7 +45,7 @@ load_secondroom:
 
 load_bathroom:
     widget_type: navigate
-    title: Couloir/Salle de bain
+    title: Couloir-Salle de bain
     icon_inactive: fa-bath
   dashboard: Bathroom
 
