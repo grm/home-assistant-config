@@ -25,7 +25,7 @@ load_garden_shed:
 load_parentroom:
     widget_type: navigate
     title: Chambre parentale
-    icon_inactive: mdi-bed-empty
+    icon_inactive: mdi-hotel
     dashboard: ParentRoom
 
 load_giuliaroom:
