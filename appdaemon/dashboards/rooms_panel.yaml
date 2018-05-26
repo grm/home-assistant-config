@@ -47,7 +47,7 @@ load_bathroom:
     widget_type: navigate
     title: Couloir-Salle de bain
     icon_inactive: fa-bath
-  dashboard: Bathroom
+    dashboard: Bathroom
 
 layout:
   - load_living_room(2x1), load_kitchen(2x1), load_office(2x1), load_garden_shed(2x1)
