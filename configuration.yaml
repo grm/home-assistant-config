@@ -106,8 +106,8 @@ map:
 sun:
 
 # Enable zwave support
-zwave:
-  usb_path: /dev/ttyACM0
+#zwave:
+#  usb_path: /dev/ttyACM0
 
 sensor: !include_dir_merge_list sensors
 
